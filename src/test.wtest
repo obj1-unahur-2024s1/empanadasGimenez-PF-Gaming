@@ -1,0 +1,19 @@
+import encargado.*
+import personas.*
+
+test "Galvan sta pobre gasta 50.000 y no tiene plata" {
+	galvan.gastar(50000)
+	assert.that(galvan.estoyPobre())
+
+}
+
+
+test "Galvan esta pobre gasta 50.000 y no teien plata"{
+	galvan.gastar(50000)
+	assert.equals(0, galvan.totalDinero())
+}
+
+
+test 
+
+
